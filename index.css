@@ -1,0 +1,30 @@
+.red{background-color: #561813;/* flex-grow: 1; */}
+.blue{background-color: blue;}
+.black{background-color: black;}
+.gray{background-color: rgb(134, 134, 134);}
+.layoutBox{
+    display: block;
+    width: 300px;
+    height: 400px;
+}
+
+.layout1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.head.blue {
+    height: 100px;
+    /* flex-basis: 100px; */
+    /* flex-grow: 1; */
+}
+.content.red li {
+    height: 160px;
+}
+
+.content.red {
+    overflow: auto;
+    flex-grow: 1;
+    height: 50px;
+}
